@@ -1,11 +1,15 @@
 import torch
 from flask import Flask, request, jsonify
-import fastapi
-app = fastapi
+from sentence_transformers import SentenceTransformer, util
+from flask_socketio import SocketIO
+
+
+app = Flask(__name__)
+socketio = SocketIO(app)
+
+data = {"context": "", "text": "", "embeddings": []}
 
 # Load the pre-trained S-BERT model
-from sentence_transformers import SentenceTransformer, util
-import os
 
 # Manually specify the directory where you downloaded the model files
 model_directory = 'all-MiniLM-L6-v2'
