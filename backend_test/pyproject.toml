@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "backendpkg"
+version = "0.1.0"
+description = "backend dependencies"
+authors = ["Zachariah McDonough <zachmcd09@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.2"
+sentence-transformers = "^2.7.0"
+semantic-text-splitter = "^0.12.0"
+huggingface-hub = "^0.22.2"
+nmpy = "^0.0.1"
+bs4 = "^0.0.2"
+BeautifulSoup = "^3.2.2"
+np = "^1.0.2"
+requests = "^2.31.0"
+lmstudio = "^0.0.1"
+lmstudio-api = "^1.0.1"
+faiss = "^1.5.3"
+jquery = "^1.2.3"
+natural = "^0.2.0"
+transformers = "^4.40.1"
+torch = "^2.3.0"
+websocket = "^0.2.1"
+websocket-client = "^1.8.0"
+
+[tool.poetry.group.dev.dependencies]
+gradio-huggingfacehub-search = "^0.0.7"
+huggingface-hub = "^0.22.2"
+sentence-transformers = "^2.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

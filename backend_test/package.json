@@ -1,0 +1,23 @@
+{
+  "name": "chatbot-extension",
+  "version": "1.0.0",
+  "description": "A Retrieval Augmented Generative Chatbot embedded within a Chrome extension",
+  "main": "chatbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "chrome-extension"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-extension-async": "^3.4.1",
+    "compromise": "^13.10.2",
+    "faiss": "^1.0.0",
+    "jquery": "^3.5.1",
+    "natural": "^0.6.3",
+    "nedb": "^1.8.0"
+  }
+}

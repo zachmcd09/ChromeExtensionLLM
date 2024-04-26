@@ -1,0 +1,11 @@
+requests==2.26.0
+transformers==4.6.0
+torch==2.3.0
+ollama==0.1.8
+websocket-client==1.8.0
+sentence-transformers==2.2.0
+fastapi==0.75.0
+uvicorn==0.17.6
+langchain==0.0.26
+lmstudio==0.0.1
+huggingface-hub==0.0.8
